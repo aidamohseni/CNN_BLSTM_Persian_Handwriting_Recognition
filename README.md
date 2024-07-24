@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Persian Handwriting Recognition</title>
+    <h2>Persian Handwriting Recognition</h2>
 </head>
 <body>
     <h1>Persian Handwriting Recognition using CNN-BLSTM Hybrid Model</h1>
@@ -18,7 +18,6 @@
     </ul>
     <h2>Model Architecture</h2>
     <p>The model architecture includes multiple convolutional layers for feature extraction, followed by MaxPooling layers to reduce spatial dimensions. A TimeDistributed layer is used to pass information to the BLSTM network, which captures sequential dependencies. Finally, Dense layers with activation functions are employed for classification.</p>
-
     <h2>Getting Started</h2>
     <h3>Prerequisites</h3>
     <ul>
